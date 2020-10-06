@@ -7,6 +7,9 @@
 </head>
 <body>
     <script type="text/javascript">
+    var miBlob = new Blob();
+    var opciones = { "status" : 200 , "statusText" : "Flipante!" };
+    var miRespuesta = new Response(miBlob,opciones);
     alert("Peticion aceptada")
     </script>
 </body>
